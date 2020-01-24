@@ -7,12 +7,12 @@ namespace Programa
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Version 2:");
+            Console.WriteLine("Suma V.2:");
 
             Console.WriteLine("Ingrese un numero a sumar:");
-            int numero1 = Console.Read();
+            int numero1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese otro numero a sumar:");
-            int numero2 = Console.Read();
+            int numero2 = int.Parse(Console.ReadLine());
 
             int resultado = numero1 + numero2;
 
